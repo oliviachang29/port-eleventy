@@ -1,0 +1,32 @@
+
+	<section id="hero" class="hero-home">
+		<h1>Olivia Chang</h1>
+		<p>Full-stack developer, graphic designer, and user experience researcher. Studying <strong>Human-Centered Design</strong> at Olin College of Engineering.</p>
+		<p>Currently visual design @ Return Design. Previously, design & user research @ Kyaro Assistive Tech, and mobile software engineering @ MedRhythms.</p>
+		<p>In the past few years, I've hiked 1200 miles of the Pacific Crest Trail, worked a season with the Nevada
+			Conservation Corps, and founded Olin Climate Justice. Hopefully on a trail somewhere. ⛰️</p>
+	</section>
+
+	<section id="client-work" class="section-small-projects">
+		<h2>Featured Work</h2>
+		{% set projectslist = collections["case study"] %}
+		{% set col_type = "col-md-6" %}
+		{% set case_study = true %}
+		{% include "projectslist.njk" %}
+
+		<h2>B-reel</h2>
+		{% set case_study = false %}
+		<h3>Web</h3>
+		{% set projectslist = collections["web"] %}
+		{% set col_type = "col-sm-6 col-md-4 col-lg-3" %}
+		{% include "projectslist.njk" %}
+
+		<h3>Mobile</h3>
+		{% set projectslist = collections["mobile"] %}
+		{% include "projectslist.njk" %}
+
+		<h3>Physical</h3>
+		{% set projectslist = collections["physical"] %}
+		{% include "projectslist.njk" %}
+	</section>
+

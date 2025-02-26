@@ -1,0 +1,23 @@
+<div class="row">
+    {%- for project in projectslist %}
+    <div class="{{col_type}}">
+        <a class="project-link" href="{{ project.url }}" target="_">
+            <div class="small-project-container">
+                <img src="{{project.data.large_image_url}}"
+                    alt="A possum parent and two possum kids hanging from the iconic red balloon">
+                
+                    {% if case_study %}
+                    <h4>{{project.data.title}}: {{project.data.type}}</h4>
+                {% else %}
+                    <h5>{{project.data.title}}: {{project.data.type}}</h5>
+                {% endif %}
+
+                {% if case_study %}
+                    <p><strong>{{project.data.language}}</strong></p>
+                    <p>{{project.data.desc}}</p>
+                {% endif %}
+            </div>
+        </a>
+    </div>
+    {%- endfor %}
+</div>

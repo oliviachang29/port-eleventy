@@ -1,0 +1,25 @@
+// src/scss/main.scss
+
+// $primary-color: #3498db;
+
+// body {
+//   font-family: Arial, sans-serif;
+//   background-color: #f4f4f4;
+//   color: #333;
+// }
+
+// h1 {
+//   color: $primary-color;
+// }
+
+@import "globals";
+@import "typography";
+@import "nav";
+@import "hero";
+@import "project";
+@import "about";
+@import "footer";
+
+@import "project_page";
+
+@import "work_with_me";

@@ -1,0 +1,90 @@
+@import "variables";
+#project-page-container {
+	margin: 0 auto;
+
+}
+
+.links {
+	display: flex;
+	flex-direction: column;
+	@media (min-width: $md) {
+		flex-direction: row;
+	}
+
+	a {
+		margin-bottom: 10px;
+		@media (min-width: $md) {
+			margin-bottom: 0;
+			margin-right: 5%;
+		}
+	}
+}
+
+.main-image {
+	width: 100%;
+	height: auto !important;
+	margin-bottom: $SCALE-4;
+}
+
+#project-page-content {
+
+	display: flex;
+	flex-direction: column;
+
+	p {
+		text-align: left;
+	}
+
+	img {
+		width: 100%;
+		height: auto !important;
+	}
+	iframe {
+		margin: 5% auto;
+	}
+
+	h2, h3 {
+		margin-top: $SCALE-2;
+		font-weight: bold;
+	}
+	
+	h4, h5 {
+		margin-top: $SCALE-1;
+	}
+	
+}
+
+.app-store-screenshot {
+	@media (min-width: $md) {
+		width: 70% !important;
+	}
+}
+
+.image-large-margin {
+	margin: 40px 0;
+}
+
+.full-width {
+	width: 100% !important;
+}
+
+.p-small-margin-bottom {
+	margin-bottom: 10px !important;
+}
+
+.p-small-margin-top {
+	margin-top: 10px !important;
+}
+
+.project-page-language {
+	margin-bottom: 10px;
+}
+
+.image-box-shadow {
+	box-shadow: 0 11px 49px 0 rgba(173,173,173,0.34);
+}
+
+.project-page__card {
+	background-color: #F1F1F1;
+	padding: $SCALE-2;
+}

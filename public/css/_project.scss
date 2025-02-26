@@ -1,0 +1,57 @@
+@import "variables";
+
+#client-work {
+	padding-top: 5%;
+}
+
+.section-small-projects {
+	h1 {
+		text-align: left;
+		margin-bottom: 60px;
+	}
+	img {
+		width: 100%;
+		height: auto !important; // override the lazy loading
+		margin-bottom: 20px;
+	}
+
+	/*row {
+		margin-left: 0;
+		margin-right: 0;
+	}*/
+}
+
+.project-link:hover .small-project-container {
+	img {
+		-webkit-transform:scale(.95);
+	    -moz-transform:scale(.95);
+	    -ms-transform:scale(.95);
+	    -o-transform:scale(.95);
+	     transform:scale(.95);
+	}
+
+	p {
+		color: black;
+	}
+}
+
+.small-project-container {
+	// text-align: center;
+	margin-bottom: 60px;
+
+	img {
+		@include smooth-transition;
+		margin-bottom: 30px;
+	}
+
+	h3 {
+		color: black;
+	}
+
+	p {
+		@include smooth-transition;
+
+		font-family: $main-font;
+		margin-top: 0px;
+	}
+}

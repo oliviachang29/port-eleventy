@@ -1,0 +1,37 @@
+#footer-links-container {
+	@media (min-width: $xs) {
+		padding-bottom: 30px;
+	}
+}
+
+#footer-links {
+	margin: 0 auto;
+	/* flex column for really small devices */
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+
+	@media (min-width: $xs) {
+		flex-direction: row !important;
+	}
+
+	a {
+		margin-bottom: 20px;
+		@media (min-width: $xs) {
+			margin: auto 10px;
+		}
+		@media (min-width: $md) {
+			margin: auto 20px;
+		}
+	}
+
+}
+
+#copyright {
+	font-size: 12px;
+	text-align: center;
+	color: #CECECE;
+	padding-bottom: 1rem;
+	margin-bottom: 0;
+}
