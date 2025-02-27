@@ -10,4 +10,5 @@ small_image_url: "./projects/scholar-supreme/scholar-supreme@1x.png"
 local_image_url: "./scholar-supreme@2x.png"
 color: "#DDE8EF"
 tags: web
+hidden: true
 ---

@@ -1,6 +1,5 @@
 ---
 layout: "layouts/project.njk"
-order: 2
 title: "Windup"
 language: React Native
 desc: Mobile app design and development for figure skating music player app

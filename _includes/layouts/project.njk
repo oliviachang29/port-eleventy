@@ -3,11 +3,11 @@ layout: layouts/base.njk
 ---
 <div id="project-page-container">
 	<div class="col-lg-10 offset-lg-1">
-		<p class="mono project-page-language">{{language}}</p>
+		<p class="project-page-language">{{language}}</p>
 		<h1>{{title}}</h1>
 		<p>{{desc}}</p>
 		<div id="project-page-content">
-			<img class="main-image" src="{{local_image_url}}" alt="Photos of the Kyaro wheelchair manuals">
+			<img class="main-image" src="{{local_image_url}}" alt="Photo of {{desc}}">
 			{{ content | safe }}
 		</div>
 	</div>

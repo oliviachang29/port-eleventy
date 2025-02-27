@@ -38,6 +38,7 @@
 	img {
 		width: 100%;
 		height: auto !important;
+		margin: $SCALE-1 0;
 	}
 	iframe {
 		margin: 5% auto;
@@ -87,4 +88,7 @@
 .project-page__card {
 	background-color: #F1F1F1;
 	padding: $SCALE-2;
+	h1, h2, h3, h4, h5 {
+		margin-top: 0 !important;
+	}
 }

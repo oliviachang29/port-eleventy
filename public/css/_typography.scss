@@ -1,14 +1,6 @@
 @import "variables";
 
-// @font-face {
-// 	font-family: 'Apercu Pro';
-// 	src: url('/assets/fonts/ApercuPro-Regular.ttf')  format('truetype');
-// 	font-weight: normal;
-//   font-style: normal;
-// }
-
 .mono {
-	font-family: Helvetica;
 	font-weight: normal;
 	font-size: 16px;
 	color: #6D6D6D;
@@ -22,12 +14,16 @@ h1 {
 }
 
 h2, h3 {
-
 	font-weight: bold;
+	margin-bottom: $SCALE-1;
 }
 
 h4, h5 {
 
+}
+
+.underline {
+	border-bottom: 2px solid;
 }
 
 a {

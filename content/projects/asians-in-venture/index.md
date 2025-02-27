@@ -10,4 +10,5 @@ small_image_url: "./projects/asians-in-venture/main@1x.png"
 local_image_url: "./main@2x.png"
 color: "#DDE8EF"
 tags: web
+hidden: true
 ---

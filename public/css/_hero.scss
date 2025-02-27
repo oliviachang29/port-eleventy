@@ -1,6 +1,13 @@
 @import "variables";
 #hero {
-	width: 100%;
+
+	@media (min-width: $md) {
+		width: 80%;
+	}
+
+	@media (min-width: $lg) {
+		width: 65%;
+	}
 
 	h1 {
 		font-weight: bold;

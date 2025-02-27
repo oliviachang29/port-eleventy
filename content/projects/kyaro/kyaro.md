@@ -6,7 +6,7 @@ language: Figma, Miro
 desc: Illustrated 60+ original graphics for a Swahili-first wheelchair guide graphics, empowering users to repair and maintain their wheelchairs and tricycle attachments. I conducted research and codesigns alongside Tanzanian physical therapists and wheelchair users.
 type: User Research, Design, Illustration
 large_image_url: "./projects/kyaro/kyaro-2@2x.png"
-small_image_url: "./projects/kyaro/kyaro-2@1x.png"
+small_image_url: "./projects/kyaro/kyaro-2.png"
 local_image_url: "./kyaro-2@2x.png"
 color: "#DDE8EF"
 tags: case study
@@ -26,7 +26,7 @@ This guide also serves as powerful asset in securing grants for Kyaro by showcas
 
 <!-- ![alt_text](./Frame-16.jpg "image_tooltip") -->
 
-
+![alt_text](./requirements.jpg "image_tooltip")
 
 ## User Research
 
@@ -89,8 +89,6 @@ I designed 2 manuals, for the main wheelchair product and for a tricycle attachm
 
 
 ![alt_text](./additional-products.jpg "image_tooltip")
-
-
 
 ## What I Learned
 
