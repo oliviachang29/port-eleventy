@@ -11,6 +11,7 @@ local_image_url: "./entertain-ai.jpg"
 color: "#DDE8EF"
 tags: web
 fluid: true
+date: 2001-01-01
 ---
 
 <div class="row">

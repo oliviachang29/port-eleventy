@@ -11,6 +11,7 @@ local_image_url: "./mally-lash@2x.png"
 color: "#FAFBFF"
 tags: web
 fluid: true
+date: 2000-01-01
 ---
 
 ## Option 1

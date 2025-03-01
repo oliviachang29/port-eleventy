@@ -10,6 +10,7 @@ small_image_url: "./projects/kyaro/kyaro-2.png"
 local_image_url: "./kyaro-2@2x.png"
 color: "#DDE8EF"
 tags: case study
+date: 2000-01-01
 ---
 
 ![alt_text](./wheelchair-illustrations.jpg "image_tooltip")

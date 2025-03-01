@@ -8,6 +8,7 @@ large_image_url: "./projects/cradles-to-crayons/c2c.jpg"
 small_image_url: "./projects/cradles-to-crayons/c2c-thumbnail.jpg"
 local_image_url: "./c2c.jpg"
 tags: case study
+date: 2001-01-01
 ---
 ### About Cradles to Crayons
 For my Technology, Accessibility, and Design class, we partnered with Cradles to Crayons, a clothing-sorting nonprofit in the Greater Boston area that provides children and families with clothing, hygiene, and school supplies.
@@ -15,7 +16,7 @@ For my Technology, Accessibility, and Design class, we partnered with Cradles to
 Cradles to Crayons runs a large volunteer program to sort clothing and other supply donations, and maintains an enrichment program for schools that teach people with disabilities to volunteer.
 
 ## 1. Problem Framework
-volunteers primarily sort clothing, school supplies, and hygiene kits, but there was a question of accessibility and independence. How could tasks be made more fulfilling, less overwhelming, and better suited to varying abilities? We aimed to build tools or resources that would help them volunteer more independently and confidently.
+Build tools or resources that would help volunteers with disability complete tasks more independently and confidently.
 
 ## 2. Initial Visit
 During our first visit to C2C, we observed volunteers from Perkins School, a group well-resourced and equipped to handle specific accommodations. We quickly realized that they had already made adaptations for their volunteers.
@@ -32,7 +33,7 @@ Since our initial framework seemed less relevant for this group, we changed our 
 
 
 ## 3. Co-Designs and Ideation
-Our team worked closely with various stakeholders, including C2C staff, volunteer managers, and teachers from .
+Our team worked closely with various stakeholders, including C2C staff and volunteer managers.
 
 Through interviews and value mapping, we identified a common set of values shared by the group, such as promoting volunteer independence, and ensuring the tasks were not about speed, but about personal fulfillment. However, there was disagreement on how easy tasks should be and how far we should go in accommodating volunteers. Despite these differing perspectives, we aligned on key values that guided our design process. The result was a series of ideas for tools, ranging from physical modifications to process improvements, aimed at fostering a more inclusive environment.
 
