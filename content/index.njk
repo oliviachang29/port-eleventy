@@ -1,83 +1,85 @@
-<section id="hero" class="hero-home">
-	<h1>Olivia Chang</h1>
-	<p>Full-stack developer and graphic designer studying <strong>Human-Centered Design</strong> at Olin College. Passionate about climate justice and building resilient communities.
-		
-	</p>
-	<p>Currently visual design @ Return Design. Previously designing @ Kyaro Assistive Tech, engineering @ MedRhythms. Freelancing for clients including @ashhasacamera, Sustainability Lab, and Campus Climate Network.
-	</p>
-	<p>Hopefully on a trail somewhere. ⛰️</p>
-
-	<p><strong><a class="underline" target="_blank" href="mailto:hello@oliviachang.me">You can reach me
-				here.</a></strong></p>
-</section>
-
-<section id="client-work" class="section-small-projects">
-	<h2>Featured Work</h2>
-	{% set projectslist = collections["case study"] %}
-	{% set col_type = "col-md-6" %}
-	{% set case_study = true %}
-	{% include "projectslist.njk" %}
-
-	<!-- <h2>B-Reel</h2> -->
-	{% set case_study = false %}
-	{% set col_type = "col-sm-6 col-md-4" %}
-
-	<h3>Web</h3>
-	{% set projectslist = collections["web"] %}
-	{% include "projectslist.njk" %}
-	<h3>Layout and Illustration</h3>
-	{% set projectslist = collections["concepts"] %}
-	{% include "projectslist.njk" %}
-
-	<h3>Mobile</h3>
-	{% set projectslist = collections["mobile"] %}
-	{% include "projectslist.njk" %}
-
-	<!-- <h3>Physical</h3>
-	{% set projectslist = collections["physical"] %}
-	{% include "projectslist.njk" %} -->
-</section>
-
-<section>
-	<h2>Work With Me</h2>
+<div class="container">
+	<section id="hero" class="hero-home">
+		<h1>Olivia Chang</h1>
+		<p>Full-stack developer and graphic designer studying <strong>Human-Centered Design</strong> at Olin College. Passionate about climate justice and building resilient communities.
+			
+		</p>
+		<p>Currently visual design @ <a href="https://www.returndesign.org/" target="_blank">Return Design</a>. Previously designing @ <a href="https://www.kyaroassistive.org/">Kyaro Assistive Tech</a>, software @ <a href="https://medrhythms.com/">MedRhythms</a>. Freelancing for clients including @ashhasacamera, Sustainability Lab, and Campus Climate Network.
+		</p>
+		<p>Hopefully on a trail somewhere. ⛰️</p>
 	
-	<!-- <div class="work-with-me-technologies">
-		<div class="row">
-			<div class="col-md-3">
-				<h5>Development</h5>
-				<ul class="list-style-type-none">
-					<li>Front-end Engineering</li>
-					<li>Web Development</li>
-					<li>Mobile app development</li>
-				</ul>
-			</div>
-			<div class="col-md-3">
-				<h5>Design</h5>
-				<ul class="list-style-type-none">
-					<li>Wireframing</li>
-					<li>Illustrations</li>
-					<li>User Research</li>
-				</ul>
-			</div>
-			<div class="col-md-3">
-				<h5>Tech Stack</h5>
-				<ul class="list-style-type-none">
-					<li>HTML, CSS & JS</li>
-					<li>React.js & React Native</li>
-					<li>Squarespace, Shopify</li>
-				</ul>
-			</div>
-		</div>
-	</div> -->
-	<blockquote>
-		<p>"Olivia has been a lifesaver and a true thought partner in helping us build out our e-commerce website. We
-			engaged Olivia while we were still in the early stages of scoping our needs and she was flexible in
-			supporting
-			us throughout the process, offering additional recommendations and insights beyond our expectations. I am
-			grateful for Olivia's expertise, ability to turn around changes quickly, and strong communication skills. We
-			would not have been able to launch on time without her services."</p>
-		<p>- Elle Pak, Sustainability Lab</p>
-	</blockquote>
-	<p class="bottom-text">Currently open to freelance design and development. Get in touch at <a href="mailto:hello@oliviachang.me">hello@oliviachang.me</a> for details.
-	</p>
-</section>
+		<p><strong><a class="underline" target="_blank" href="mailto:hello@oliviachang.me">You can reach me
+					here.</a></strong></p>
+	</section>
+	
+	<section id="client-work" class="section-small-projects">
+		<h2>Featured Work</h2>
+		{% set projectslist = collections["case study"] %}
+		{% set col_type = "col-md-6" %}
+		{% set case_study = true %}
+		{% include "projectslist.njk" %}
+	
+		<!-- <h2>B-Reel</h2> -->
+		{% set case_study = false %}
+		{% set col_type = "col-sm-6 col-md-4" %}
+	
+		<h3>Web</h3>
+		{% set projectslist = collections["web"] %}
+		{% include "projectslist.njk" %}
+		<h3>Layout and Illustration</h3>
+		{% set projectslist = collections["concepts"] %}
+		{% include "projectslist.njk" %}
+	
+		<h3>Mobile</h3>
+		{% set projectslist = collections["mobile"] %}
+		{% include "projectslist.njk" %}
+	
+		<!-- <h3>Physical</h3>
+		{% set projectslist = collections["physical"] %}
+		{% include "projectslist.njk" %} -->
+	</section>
+	
+	<section>
+			<h2>Work With Me</h2>
+			
+			<!-- <div class="work-with-me-technologies">
+				<div class="row">
+					<div class="col-md-3">
+						<h5>Development</h5>
+						<ul class="list-style-type-none">
+							<li>Front-end Engineering</li>
+							<li>Web Development</li>
+							<li>Mobile app development</li>
+						</ul>
+					</div>
+					<div class="col-md-3">
+						<h5>Design</h5>
+						<ul class="list-style-type-none">
+							<li>Wireframing</li>
+							<li>Illustrations</li>
+							<li>User Research</li>
+						</ul>
+					</div>
+					<div class="col-md-3">
+						<h5>Tech Stack</h5>
+						<ul class="list-style-type-none">
+							<li>HTML, CSS & JS</li>
+							<li>React.js & React Native</li>
+							<li>Squarespace, Shopify</li>
+						</ul>
+					</div>
+				</div>
+			</div> -->
+			<blockquote>
+				<p>"Olivia has been a lifesaver and a true thought partner in helping us build out our e-commerce website. We
+					engaged Olivia while we were still in the early stages of scoping our needs and she was flexible in
+					supporting
+					us throughout the process, offering additional recommendations and insights beyond our expectations. I am
+					grateful for Olivia's expertise, ability to turn around changes quickly, and strong communication skills. We
+					would not have been able to launch on time without her services."</p>
+				<p>- Elle Pak, Sustainability Lab</p>
+			</blockquote>
+			<p class="bottom-text">Currently open to freelance design and development. Get in touch at <a href="mailto:hello@oliviachang.me">hello@oliviachang.me</a> for details.
+			</p>
+	</section>
+</div>

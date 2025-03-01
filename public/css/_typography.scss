@@ -8,18 +8,13 @@
 
 h1 {
 	font-family: $main-font;
-	font-weight: normal;
 	font-size: 48px;
 	color: #000000;
+	font-weight: bold;
 }
 
 h2, h3 {
-	font-weight: bold;
 	margin-bottom: $SCALE-1;
-}
-
-h4, h5 {
-
 }
 
 .underline {
@@ -28,7 +23,6 @@ h4, h5 {
 
 a {
   color: #4A4A4A;
-  font-weight: normal;
   @include smooth-transition;
 	&:hover {
 		color: #000000;
@@ -38,7 +32,6 @@ a {
 
 p, li, h5 {
 	font-family: $main-font;
-	font-weight: 100;
 	font-size: 18px;
 	color: #6D6D6D;
 	line-height: 30px;
@@ -56,11 +49,10 @@ li {
 
 h5 {
 	color: black;
-	font-weight: normal;
 }
 
 blockquote {
 	padding-left: 25px;
 	border-left: 10px solid #F0F0F0;
-	margin-bottom: 30px
+	margin-bottom: 30px;
 }

@@ -12,6 +12,8 @@ color: "#DDE8EF"
 tags: case study
 ---
 
+![alt_text](./wheelchair-illustrations.jpg "image_tooltip")
+
 ## The Problem
 
 Kyaro is an assistive tech organization based in Arusha, Tanzania, making custom-fitted wheelchairs and other assistive devices using locally available parts. I lived and worked in Arusha as a design intern in summer 2023.
@@ -29,7 +31,6 @@ This guide also serves as powerful asset in securing grants for Kyaro by showcas
 ![alt_text](./requirements.jpg "image_tooltip")
 
 ## User Research
-
 
 #### Research & Landscape Review:
 
@@ -96,6 +97,9 @@ Not only was this an opportunity to hone my design and visual communication skil
 
 As an outsider designing for a community I wasn’t part of, I learned the importance of codesign and ensuring that my design choices were informed by local input.
 
+![alt_text](./tricycle-illustrations.jpg "image_tooltip")
+
 
 **What I Would Do Differently:** I would have tested the assumption that providing more detailed repair information would increase the likelihood of repair. One way to do this could have been to follow up with caregivers a few months later to see if the manual influenced their behavior.
 
+![alt_text](./jambo-chair-illustrations.jpg "image_tooltip")

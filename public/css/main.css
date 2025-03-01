@@ -1,5 +1,6 @@
 /* bootstrap media queries */
-html, body {
+html,
+body {
   min-height: 100%;
   width: 100%;
   padding: 0;
@@ -20,13 +21,19 @@ html.is-animating .transition-fade {
 }
 
 .noselect {
-  -webkit-touch-callout: none; /* iOS Safari */
-  -webkit-user-select: none; /* Safari */
-  -khtml-user-select: none; /* Konqueror HTML */
-  -moz-user-select: none; /* Firefox */
-  -ms-user-select: none; /* Internet Explorer/Edge */
-  user-select: none; /* Non-prefixed version, currently
-   supported by Chrome and Opera */
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
 }
 
 .show-mobile {
@@ -56,10 +63,8 @@ html.is-animating .transition-fade {
   }
 }
 
-/* Lazyload config */
-.lazy {
-  opacity: 0;
-  transition: opacity 0.3s ease-in;
+.height-100 {
+  height: 100%;
 }
 
 main {
@@ -75,13 +80,12 @@ main {
 
 h1 {
   font-family: "Instrument Sans";
-  font-weight: normal;
   font-size: 48px;
   color: #000000;
+  font-weight: bold;
 }
 
 h2, h3 {
-  font-weight: bold;
   margin-bottom: 1.4rem;
 }
 
@@ -91,7 +95,6 @@ h2, h3 {
 
 a {
   color: #4A4A4A;
-  font-weight: normal;
   -webkit-transition: all 0.25s; /* Safari and Chrome */
   -moz-transition: all 0.25s; /* Firefox */
   -ms-transition: all 0.25s; /* IE 9 */
@@ -105,7 +108,6 @@ a:hover {
 
 p, li, h5 {
   font-family: "Instrument Sans";
-  font-weight: 100;
   font-size: 18px;
   color: #6D6D6D;
   line-height: 30px;
@@ -123,7 +125,6 @@ li {
 
 h5 {
   color: black;
-  font-weight: normal;
 }
 
 blockquote {

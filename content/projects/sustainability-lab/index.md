@@ -10,4 +10,5 @@ small_image_url: "./projects/sustainability-lab/sustainability-lab@1x.png"
 local_image_url: "./sustainability-lab@2x.png"
 color: "#DDE8EF"
 tags: web
+hidden: true
 ---

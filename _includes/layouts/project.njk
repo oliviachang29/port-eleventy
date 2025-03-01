@@ -1,14 +1,21 @@
 ---
 layout: layouts/base.njk
 ---
-<div id="project-page-container">
-	<div class="col-lg-10 offset-lg-1">
-		<p class="project-page-language">{{language}}</p>
-		<h1>{{title}}</h1>
-		<p>{{desc}}</p>
-		<div id="project-page-content">
-			<img class="main-image" src="{{local_image_url}}" alt="Photo of {{desc}}">
-			{{ content | safe }}
+<div class="container{% if fluid %}-fluid{% endif %}">
+	<div id="project-page-container">
+		<div class="col-lg-10 offset-lg-1">
+			<p class="project-page-language">{{language}}</p>
+			<h1>{{title}}</h1>
+			<p>{{desc}}</p>
+			<div class="links">
+				{% if link %}
+					<a href="{{ link }}" class="underline" target="_blank"> Go to website</a>
+				{% endif %}
+			</div>
+			<div id="project-page-content">
+				<img class="main-image" src="{{local_image_url}}" alt="Photo of {{desc}}">
+				{{ content | safe }}
+			</div>
 		</div>
 	</div>
 </div>

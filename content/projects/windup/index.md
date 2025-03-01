@@ -10,3 +10,13 @@ local_image_url: "./windup@2x.png"
 color: "#DDE8EF"
 tags: mobile
 ---
+
+
+<div class="row">
+    <div class="col-sm-6">
+        <img src="./windup 2.jpg" alt="">
+    </div>
+    <div class="col-sm-6">
+        <img src="./windup.jpg" alt="">
+    </div>
+</div>

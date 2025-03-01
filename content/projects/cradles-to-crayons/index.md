@@ -1,14 +1,12 @@
 ---
 layout: "layouts/project.njk"
-order: 2
 title: Cradles to Crayons
 language: Figma, Miro
-desc: Fabricated tactile, removable, and interchangeable Braille labels that empowered volunteers with disabilities to contribute more independently at Cradles to Crayons. Collaborated closely with stakeholders to deliver solutions that improved accessibility and volunteer autonomy.
+desc: Fabricated tactile, removable, and interchangeable Braille labels. I collaborated closely with stakeholders to deliver solutions that improved accessibility and volunteer autonomy.
 type: Designing for Accessibility
 large_image_url: "./projects/cradles-to-crayons/c2c.jpg"
 small_image_url: "./projects/cradles-to-crayons/c2c-thumbnail.jpg"
 local_image_url: "./c2c.jpg"
-color: "#DDE8EF"
 tags: case study
 ---
 ### About Cradles to Crayons
