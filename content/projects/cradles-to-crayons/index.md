@@ -9,6 +9,7 @@ small_image_url: "./projects/cradles-to-crayons/c2c-thumbnail.jpg"
 local_image_url: "./c2c.jpg"
 tags: case study
 date: 2001-01-01
+hidden: true
 ---
 ### About Cradles to Crayons
 For my Technology, Accessibility, and Design class, we partnered with Cradles to Crayons, a clothing-sorting nonprofit in the Greater Boston area that provides children and families with clothing, hygiene, and school supplies.
