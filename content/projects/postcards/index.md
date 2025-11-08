@@ -18,3 +18,4 @@ tags: concepts
 ![Process photo for Baylands poster](./baylands-working.jpg)
 ![Illustration of green mountains with large pine tree in front](./pine-ridge.jpg)
 ![Process photo for Pine Ridge postcard](./pine-ridge-working.jpg)
+![Illustration of backpacker looking towards snowy mountains and lake](./thousand-island.jpg)

@@ -2,7 +2,7 @@
 layout: "layouts/project.njk"
 order: 2
 title: Mally Lash Boutique
-desc: Designed a visual identity and website for lash supplies business from scratch. I developed an e-commerce site with a custom Shopify theme, enabling my client to reach a wider audience while maintaining a professional, high-quality feel.
+desc: Designed a visual identity and website for an e-commerce site.
 type: Ecommerce Design & Development
 language: "Shopify, HTML/CSS"
 large_image_url: "./projects/mally-lash-boutique/mally-lash@2x.png"

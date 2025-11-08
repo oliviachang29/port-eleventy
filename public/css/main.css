@@ -79,7 +79,7 @@ main {
 }
 
 h1 {
-  font-family: "Instrument Sans";
+  font-family: "Stack Sans Notch";
   font-size: 48px;
   color: #000000;
   font-weight: bold;
@@ -87,6 +87,9 @@ h1 {
 
 h2, h3 {
   margin-bottom: 1.4rem;
+  font-family: "Stack Sans Notch";
+  padding-bottom: 5px;
+  border-bottom: 10px black;
 }
 
 .underline {
@@ -95,6 +98,8 @@ h2, h3 {
 
 a {
   color: #4A4A4A;
+  font-family: "Stack Sans Notch";
+  font-weight: 500;
   -webkit-transition: all 0.25s; /* Safari and Chrome */
   -moz-transition: all 0.25s; /* Firefox */
   -ms-transition: all 0.25s; /* IE 9 */
@@ -137,13 +142,13 @@ blockquote {
 nav {
   background-color: transparent;
 }
-nav a {
-  margin-right: 20px;
-}
 @media (min-width: 768px) {
   nav a {
     margin-top: 10px;
   }
+}
+nav a {
+  margin-right: 20px;
 }
 
 .navbar-toggler {
@@ -160,6 +165,31 @@ nav a {
 }
 
 /* bootstrap media queries */
+#hero-h1 {
+  font-family: "Stack Sans Notch";
+  margin-bottom: 1.96rem;
+  font-size: 50px;
+  line-height: 80%;
+  letter-spacing: -3px;
+  color: black;
+}
+@media (min-width: 576px) {
+  #hero-h1 {
+    font-size: 10vw;
+  }
+}
+@media (min-width: 768px) {
+  #hero-h1 {
+    width: 80%;
+    font-size: 72px;
+  }
+}
+@media (min-width: 992px) {
+  #hero-h1 {
+    width: 70%;
+  }
+}
+
 @media (min-width: 768px) {
   #hero {
     width: 80%;
@@ -169,11 +199,6 @@ nav a {
   #hero {
     width: 65%;
   }
-}
-#hero h1 {
-  font-weight: bold;
-  font-size: 48px;
-  color: #000000;
 }
 #hero p {
   font-weight: 100;
@@ -192,12 +217,6 @@ nav a {
   padding-top: 5%;
 }
 
-.section-small-projects {
-  /*row {
-  	margin-left: 0;
-  	margin-right: 0;
-  }*/
-}
 .section-small-projects h1 {
   text-align: left;
   margin-bottom: 60px;
@@ -206,6 +225,12 @@ nav a {
   width: 100%;
   height: auto !important;
   margin-bottom: 20px;
+}
+.section-small-projects {
+  /*row {
+  	margin-left: 0;
+  	margin-right: 0;
+  }*/
 }
 
 .project-link:hover .small-project-container img {
@@ -220,7 +245,7 @@ nav a {
 }
 
 .small-project-container {
-  margin-bottom: 60px;
+  margin-bottom: 2.744rem;
 }
 .small-project-container img {
   -webkit-transition: all 0.25s; /* Safari and Chrome */
@@ -239,6 +264,7 @@ nav a {
   -ms-transition: all 0.25s; /* IE 9 */
   -o-transition: all 0.25s; /* Opera */
   transition: all 0.25s;
+  font-weight: normal;
   font-family: "Instrument Sans";
   margin-top: 0px;
 }

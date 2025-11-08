@@ -3,7 +3,7 @@ layout: "layouts/project.njk"
 order: 2
 title: Kyaro Wheelchair Manuals
 language: Figma, Miro
-desc: Illustrated 60+ original graphics for a Swahili-first wheelchair guide graphics, empowering users to repair and maintain their wheelchairs and tricycle attachments. I conducted research and codesigns alongside Tanzanian physical therapists and wheelchair users.
+desc: Illustrated 60+ original graphics for a Swahili-first wheelchair guide graphics, empowering users to repair their wheelchairs.
 type: User Research, Design, Illustration
 large_image_url: "./projects/kyaro/kyaro-2@2x.png"
 small_image_url: "./projects/kyaro/kyaro-2.png"

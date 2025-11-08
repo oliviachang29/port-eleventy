@@ -9,7 +9,7 @@ large_image_url: "./projects/entertain-ai/entertain-ai.jpg"
 small_image_url: "./projects/entertain-ai/entertain-ai.jpg"
 local_image_url: "./entertain-ai.jpg"
 color: "#DDE8EF"
-tags: web
+tags: case study
 fluid: true
 date: 2001-01-01
 ---
