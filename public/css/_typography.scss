@@ -7,7 +7,7 @@
 }
 
 h1 {
-	font-family: $secondary-font;
+	font-family: $title-font;
 	font-size: 48px;
 	color: #000000;
 	font-weight: bold;
@@ -15,7 +15,7 @@ h1 {
 
 h2, h3 {
 	margin-bottom: $SCALE-1;
-	font-family: $secondary-font;
+	font-family: $title-font;
 	padding-bottom: 5px;
 	border-bottom: 10px black;
 }
@@ -25,8 +25,9 @@ h2, h3 {
 }
 
 a {
+  border-bottom: 2px solid;
   color: #4A4A4A;
-  font-family: $secondary-font;
+  font-family: $title-font;
   font-weight: 500;
   @include smooth-transition;
 	&:hover {
@@ -36,10 +37,11 @@ a {
 }
 
 p, li, h5 {
-	font-family: $main-font;
+	font-family: $body-font;
 	font-size: 18px;
 	color: #6D6D6D;
 	line-height: 30px;
+	font-weight: 300
 }
 
 li {

@@ -5,6 +5,7 @@ body {
   width: 100%;
   padding: 0;
   margin: 0;
+  background-color: rgb(253, 253, 253);
 }
 
 .transition-fade {
@@ -17,7 +18,7 @@ html.is-animating .transition-fade {
 }
 
 * {
-  font-family: "Instrument Sans", Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: "Instrument Serif", Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
 .noselect {
@@ -71,6 +72,10 @@ main {
   padding: 3.8416rem 0;
 }
 
+section {
+  padding: 1.4rem 0;
+}
+
 /* bootstrap media queries */
 .mono {
   font-weight: normal;
@@ -79,7 +84,7 @@ main {
 }
 
 h1 {
-  font-family: "Stack Sans Notch";
+  font-family: "Instrument Serif";
   font-size: 48px;
   color: #000000;
   font-weight: bold;
@@ -87,7 +92,7 @@ h1 {
 
 h2, h3 {
   margin-bottom: 1.4rem;
-  font-family: "Stack Sans Notch";
+  font-family: "Instrument Serif";
   padding-bottom: 5px;
   border-bottom: 10px black;
 }
@@ -97,8 +102,9 @@ h2, h3 {
 }
 
 a {
+  border-bottom: 2px solid;
   color: #4A4A4A;
-  font-family: "Stack Sans Notch";
+  font-family: "Instrument Serif";
   font-weight: 500;
   -webkit-transition: all 0.25s; /* Safari and Chrome */
   -moz-transition: all 0.25s; /* Firefox */
@@ -112,10 +118,11 @@ a:hover {
 }
 
 p, li, h5 {
-  font-family: "Instrument Sans";
+  font-family: "Space Mono";
   font-size: 18px;
   color: #6D6D6D;
   line-height: 30px;
+  font-weight: 300;
 }
 
 li {
@@ -166,22 +173,21 @@ nav a {
 
 /* bootstrap media queries */
 #hero-h1 {
-  font-family: "Stack Sans Notch";
+  font-family: "Instrument Serif";
   margin-bottom: 1.96rem;
-  font-size: 50px;
   line-height: 80%;
-  letter-spacing: -3px;
+  letter-spacing: 0;
   color: black;
 }
 @media (min-width: 576px) {
   #hero-h1 {
-    font-size: 10vw;
+    font-size: 6vw;
   }
 }
 @media (min-width: 768px) {
   #hero-h1 {
     width: 80%;
-    font-size: 72px;
+    font-size: 40px;
   }
 }
 @media (min-width: 992px) {
@@ -201,7 +207,6 @@ nav a {
   }
 }
 #hero p {
-  font-weight: 100;
   font-size: 20px;
   color: #6D6D6D;
   margin-top: 10px;
@@ -211,26 +216,24 @@ nav a {
     margin-top: 23px;
   }
 }
+#hero a {
+  font-family: "Space Mono";
+  font-weight: medium;
+}
 
 /* bootstrap media queries */
 #client-work {
   padding-top: 5%;
 }
 
-.section-small-projects h1 {
-  text-align: left;
-  margin-bottom: 60px;
+.section-small-projects h2 {
+  width: fit-content;
 }
 .section-small-projects img {
   width: 100%;
   height: auto !important;
+  object-fit: fill;
   margin-bottom: 20px;
-}
-.section-small-projects {
-  /*row {
-  	margin-left: 0;
-  	margin-right: 0;
-  }*/
 }
 
 .project-link:hover .small-project-container img {
@@ -255,8 +258,10 @@ nav a {
   transition: all 0.25s;
   margin-bottom: 30px;
 }
-.small-project-container h3 {
+.small-project-container h4 {
   color: black;
+  font-family: "Instrument Serif";
+  font-weight: bold;
 }
 .small-project-container p {
   -webkit-transition: all 0.25s; /* Safari and Chrome */
@@ -264,8 +269,7 @@ nav a {
   -ms-transition: all 0.25s; /* IE 9 */
   -o-transition: all 0.25s; /* Opera */
   transition: all 0.25s;
-  font-weight: normal;
-  font-family: "Instrument Sans";
+  font-family: "Space Mono";
   margin-top: 0px;
 }
 

@@ -1,17 +1,16 @@
 @import "variables";
 #hero-h1 {
-	font-family: $secondary-font;
+	font-family: $title-font;
 	margin-bottom: $SCALE-2;
-	font-size: 50px;
 	line-height: 80%;
-	letter-spacing: -3px;
+	letter-spacing: 0;
 	color: black;
 	@media (min-width: $sm) {
-		font-size: 10vw;
+		font-size: 6vw;
 	}
 	@media (min-width: $md) {
 		width: 80%;
-		font-size: 72px;
+		font-size: 40px;
 	}
 	
 	@media (min-width: $lg) {
@@ -30,12 +29,16 @@
 	}
 
 	p {
-		font-weight: 100;
 		font-size: 20px;
 		color: #6D6D6D;
 		margin-top: 10px;
 		@media (min-width: $md) {
 			margin-top: 23px;
 		}
+	}
+
+	a {
+		font-family: $body-font;
+		font-weight: medium;
 	}
 }

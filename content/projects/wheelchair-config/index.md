@@ -11,4 +11,5 @@ local_image_url: "./wheelchair-config.jpg"
 color: "#DDE8EF"
 tags: web
 link: "https://www.kyaroassistive.org/wheelchair-configuration"
+hidden: true
 ---

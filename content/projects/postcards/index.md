@@ -5,7 +5,7 @@ title: Travel Postcards
 language: Figma
 desc: Illustrated set of travel postcards with a modern spin
 type: Illustration
-large_image_url: "./projects/postcards/postcards.png"
+large_image_url: "./projects/postcards/postcards@2x.png"
 small_image_url: "./projects/postcards/postcards-thumbnail.png"
 local_image_url: "./postcards.png"
 color: "#DDE8EF"

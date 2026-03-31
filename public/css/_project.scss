@@ -5,22 +5,20 @@
 }
 
 .section-small-projects {
-	h1 {
-		text-align: left;
-		margin-bottom: 60px;
+	h2 {
+		// background-color: black;
+		// padding-left: 10px;
+		// padding-right: 10px;
+		// color: white;
+		width: fit-content;
 	}
 	img {
 		width: 100%;
 		height: auto !important; // override the lazy loading
+		object-fit: fill;
 		margin-bottom: 20px;
 	}
 
-	p {}
-
-	/*row {
-		margin-left: 0;
-		margin-right: 0;
-	}*/
 }
 
 .project-link:hover .small-project-container {
@@ -45,14 +43,15 @@
 		margin-bottom: 30px;
 	}
 
-	h3 {
+	h4 {
 		color: black;
+		font-family: $title-font;
+		font-weight: bold
 	}
 
 	p {
 		@include smooth-transition;
-		font-weight: normal;
-		font-family: $main-font;
+		font-family: $body-font;
 		margin-top: 0px;
 	}
 }

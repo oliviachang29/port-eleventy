@@ -6,6 +6,7 @@ body {
   width: 100%;
   padding: 0;
   margin: 0;
+  background-color: rgb(253,253,253);
 }
 
 .transition-fade {
@@ -18,7 +19,7 @@ html.is-animating .transition-fade {
 }
 
 * {
-  font-family: $main-font, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: $title-font, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
 .noselect {
@@ -67,4 +68,9 @@ html.is-animating .transition-fade {
 
 main {
   padding: $SCALE-4 0;
+}
+
+
+section {
+  padding: $SCALE-1 0;
 }

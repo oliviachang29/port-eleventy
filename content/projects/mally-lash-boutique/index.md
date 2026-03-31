@@ -9,7 +9,7 @@ large_image_url: "./projects/mally-lash-boutique/mally-lash@2x.png"
 small_image_url: "./projects/mally-lash-boutique/mally-lash@1x.png"
 local_image_url: "./mally-lash@2x.png"
 color: "#FAFBFF"
-tags: case study
+tags: web
 fluid: true
 date: 2000-01-01
 link: https://mallylashboutique.com/
