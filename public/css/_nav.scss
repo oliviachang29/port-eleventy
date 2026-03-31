@@ -1,24 +1,7 @@
 @import "variables";
 
-nav {
-	background-color: transparent;
-	a {
-		@media (min-width: $md) {
-			margin-top: 10px;
-		}
-		margin-right: 20px;
-	}
-}
-
-.navbar-toggler {
-	margin-top: 20px;
-	border: none;
-	&:focus {
-		border: none;
-		outline: none;
-	}
-}
-
-.navbar-collapse {
-	padding-left: 15px;
+#nav-home h1 {
+	font-size: 20px;
+	margin-bottom: 0px;
+	padding-bottom: 0px
 }

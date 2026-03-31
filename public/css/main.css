@@ -77,6 +77,10 @@ section {
 }
 
 /* bootstrap media queries */
+* {
+  font-family: "Space Mono";
+}
+
 .mono {
   font-weight: normal;
   font-size: 16px;
@@ -101,6 +105,10 @@ h2, h3 {
   border-bottom: 2px solid;
 }
 
+strong {
+  font-weight: bold;
+}
+
 a {
   border-bottom: 2px solid;
   color: #4A4A4A;
@@ -119,9 +127,7 @@ a:hover {
 
 p, li, h5 {
   font-family: "Space Mono";
-  font-size: 18px;
   color: #6D6D6D;
-  line-height: 30px;
   font-weight: 300;
 }
 
@@ -146,29 +152,10 @@ blockquote {
 }
 
 /* bootstrap media queries */
-nav {
-  background-color: transparent;
-}
-@media (min-width: 768px) {
-  nav a {
-    margin-top: 10px;
-  }
-}
-nav a {
-  margin-right: 20px;
-}
-
-.navbar-toggler {
-  margin-top: 20px;
-  border: none;
-}
-.navbar-toggler:focus {
-  border: none;
-  outline: none;
-}
-
-.navbar-collapse {
-  padding-left: 15px;
+#nav-home h1 {
+  font-size: 20px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
 }
 
 /* bootstrap media queries */
@@ -196,6 +183,9 @@ nav a {
   }
 }
 
+#hero {
+  padding: 2.744rem 0;
+}
 @media (min-width: 768px) {
   #hero {
     width: 80%;
@@ -204,6 +194,7 @@ nav a {
 @media (min-width: 992px) {
   #hero {
     width: 65%;
+    padding-top: 5.37824rem;
   }
 }
 #hero p {

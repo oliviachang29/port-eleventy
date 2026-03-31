@@ -15,10 +15,10 @@ function initJS() {
     // $(".video-container").fitVids();
 
     if (window.location.pathname != '/') {
-        $('.nav-link-x').fadeIn();
+        $('#nav-home').fadeIn();
         scroll.animateScroll(0);
     } else {
-        $(".nav-link-x").fadeOut();
+        $("#nav-home").fadeOut();
     }
 
 }

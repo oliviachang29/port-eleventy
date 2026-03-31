@@ -19,13 +19,14 @@
 }
 
 #hero {
-
+	padding: $SCALE-3 0;
 	@media (min-width: $md) {
 		width: 80%;
 	}
 
 	@media (min-width: $lg) {
 		width: 65%;
+		padding-top: $SCALE-5;
 	}
 
 	p {

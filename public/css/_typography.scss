@@ -1,5 +1,9 @@
 @import "variables";
 
+* {
+	font-family: $body-font
+}
+
 .mono {
 	font-weight: normal;
 	font-size: 16px;
@@ -24,6 +28,10 @@ h2, h3 {
 	border-bottom: 2px solid;
 }
 
+strong {
+	font-weight: bold;
+}
+
 a {
   border-bottom: 2px solid;
   color: #4A4A4A;
@@ -38,9 +46,9 @@ a {
 
 p, li, h5 {
 	font-family: $body-font;
-	font-size: 18px;
+	// font-size: 18px;
 	color: #6D6D6D;
-	line-height: 30px;
+	// line-height: 30px;
 	font-weight: 300
 }
 
