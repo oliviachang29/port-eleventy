@@ -34,12 +34,12 @@ Kyaro is an assistive tech organization based in Arusha, Tanzania, making custom
 
 #### Research & Landscape Review:
 
-I began by reviewing a variety of wheelchair manuals, some written in Swahili and others from international contexts. Most manuals were dense and legalistic, with long paragraphs and excessive legal warnings.
+I began by reviewing a variety of wheelchair manuals. Most manuals were dense, with long paragraphs and excessive legal warnings.
 
 ![existing manuals](./existing-manuals.jpg)
 
 
-I looked for examples of successful instructional design, and found inspiration in airplane safety cards. These cards condense a large amount of information into a small space using diagrams and minimal text.
+Looking for examples of successful instructional design, I found inspiration in airplane safety cards. These cards condense a large amount of information into a small space using diagrams and minimal text.
 
 ![examples of instructions done well](./instructions-well.jpg)
 
@@ -71,15 +71,15 @@ I organized the insights from my interviews on a Miro board, identifying 24 key 
 
 Stigma around disability came up over and over in my interviews, and helped clarify two key values for designing the manuals.
 
-* **Value 1: Decrease Complexity:** Caretakers can be intimidated by the complexity of the device. We should emphasize that most repairs could be done locally, by bicycle fundi (repairmen) or seamstresses, and that caregivers already have all the resources they need to take care of the wheelchair.
-* **Value 2: Prioritize Excitement, Community, and Play:** 
+* **Decrease Complexity:** Caretakers can be intimidated by the complexity of the device. We should emphasize that most repairs could be done locally, by bicycle fundi (repairmen) or seamstresses, and that caregivers already have all the resources they need to take care of the wheelchair.
+* **Prioritize Play:**
 While PTs often saw people using the wheelchairs in technically unsafe ways - for example, climbing over the wheelchairs, and pushing it too fast - my interviewees emphasized that they see this as a positive thing. This meant other children wanted to play despite the stigma. We needed to prioritize excitement rather than overemphasizing safety warnings that could inadvertently reinforce stigma.
 
 
 ## Prototypes
 ![codesign](./codesign.jpg)
 
-I moved on to designing a low-fidelity prototype of the manual and sought feedback from caregivers and physical therapists. This process involved five rounds of revisions, with each iteration refining both the clarity of illustrations and the selection of content. 
+I moved on to designing a low-fidelity prototype of the manual and sought feedback from caregivers and physical therapists. This process involved five rounds of revisions, with each iteration refining both the clarity of illustrations and the selection of content.
 ![iterations](./iterations.jpg)
 
 ## Final Product

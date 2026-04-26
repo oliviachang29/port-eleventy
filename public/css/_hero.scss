@@ -12,7 +12,7 @@
 		width: 80%;
 		font-size: 40px;
 	}
-	
+
 	@media (min-width: $lg) {
 		width: 70%;
 	}
@@ -30,7 +30,6 @@
 	}
 
 	p {
-		font-size: 20px;
 		color: #6D6D6D;
 		margin-top: 10px;
 		@media (min-width: $md) {
