@@ -4,7 +4,7 @@ title: Knowledgy Lab
 language: HTML/CSS, JS, Eleventy.js, Figma
 desc: Visual identity and website design and development for post-doc education researcher
 type: Web Design & Development
-tags: web
+tags: b_reel
 large_image_url: "./projects/knowledgy-lab/knowledgy-lab@2x.png"
 small_image_url: "./projects/knowledgy-lab/knowledgy-lab@1x.png"
 local_image_url: "./knowledgy-lab@2x.png"

@@ -9,6 +9,6 @@ large_image_url: "./projects/assistive-tech-poster/tad-full.png"
 small_image_url: "./projects/assistive-tech-poster/tad.png"
 local_image_url: "./tad-full.png"
 color: "#DDE8EF"
-tags: concepts
+tags: b_reel
 fluid: true
 ---

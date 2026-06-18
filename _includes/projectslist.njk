@@ -6,11 +6,9 @@
         <a class="project-link" href="{{ project.url }}" target="_">{% endif %}
             <div class="small-project-container">
                 <img src="{{project.data.small_image_url}}" alt="Photo of {{project.data.desc}}">
-                
-                    {% if case_study %}
+
+                {% if case_study %}
                     <h3>{{project.data.title}}: {{project.data.type}}</h3>
-                {% else %}
-                    <h5>{{project.data.title}}: {{project.data.type}}</h5>
                 {% endif %}
 
                 {% if case_study %}

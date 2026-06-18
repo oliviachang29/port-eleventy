@@ -9,7 +9,7 @@ large_image_url: "./projects/postcards/postcards@2x.png"
 small_image_url: "./projects/postcards/postcards-thumbnail.png"
 local_image_url: "./postcards.png"
 color: "#DDE8EF"
-tags: concepts
+tags: b_reel
 ---
 
 ![Illustration of backpacker looking out on Mount Meru caldera cone with bright orange sun and clouds](./meru.jpg)

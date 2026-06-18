@@ -9,7 +9,7 @@ large_image_url: "./projects/mally-lash-boutique/mally-lash@2x.png"
 small_image_url: "./projects/mally-lash-boutique/mally-lash@1x.png"
 local_image_url: "./mally-lash@2x.png"
 color: "#FAFBFF"
-tags: web
+tags: b_reel
 fluid: true
 date: 2000-01-01
 link: https://mallylashboutique.com/
@@ -28,7 +28,7 @@ link: https://mallylashboutique.com/
 </div>
 
 ## Early Ideation
-I designed 3 high fidelity theme mockups, allowing my client to choose between different visual styles. 
+I designed 3 high fidelity theme mockups, allowing my client to choose between different visual styles.
 
 ### Alternate One
 <div class="row">
@@ -42,7 +42,7 @@ I designed 3 high fidelity theme mockups, allowing my client to choose between d
 </div>
 
 ### Alternate Two
-<div class="row"> 
+<div class="row">
     <div class="col-sm-6">
         <img src="./o3 - 1: Navigation, Hero, Shop by Category.png" alt="">
         <img src="./o3 - 2: Book a Training, About.png" alt="">

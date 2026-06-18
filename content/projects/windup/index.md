@@ -8,9 +8,8 @@ large_image_url: "./projects/windup/windup@2x.png"
 small_image_url: "./projects/windup/windup@1x.png"
 local_image_url: "./windup@2x.png"
 color: "#DDE8EF"
-tags: mobile
+tags: b_reel
 ---
-
 
 <div class="row">
     <div class="col-sm-6">

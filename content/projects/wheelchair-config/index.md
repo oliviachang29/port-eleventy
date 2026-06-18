@@ -9,7 +9,7 @@ large_image_url: "./projects/wheelchair-config/wheelchair-config.jpg"
 small_image_url: "./projects/wheelchair-config/wheelchair-config-thumbnail.jpg"
 local_image_url: "./wheelchair-config.jpg"
 color: "#DDE8EF"
-tags: web
+tags: b_reel
 link: "https://www.kyaroassistive.org/wheelchair-configuration"
 hidden: true
 ---

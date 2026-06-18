@@ -9,7 +9,7 @@ large_image_url: "./projects/ashhasacamera/main@2x.png"
 small_image_url: "./projects/ashhasacamera/main@1x.png"
 local_image_url: "./main@2x.png"
 color: "#DDE8EF"
-tags: web
+tags: b_reel
 fluid: true
 ---
 <div class="col-md-6">

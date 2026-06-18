@@ -1,10 +1,10 @@
 <div class="container">
 	<section id="hero" class="hero-home">
-		
+
 		<h1 id="hero-h1">Olivia Chang</h1>
-		<p>Developer + designer + ultralight gear enthusiast. Currently making the grid more climate resilient at <a
-				href="https://www.newgridinc.com/" target="_blank">NewGrid</a>. 
-		
+		<p>Developer + designer + <a href="https://misolite.com">ultralight gear designer</a>. Currently at <a
+				href="https://www.newgridinc.com/" target="_blank">NewGrid</a>.
+
 		<p>Previously at <a
 				href="https://www.returndesign.org/" target="_blank">Return Design</a>, <a
 				href="https://www.kyaroassistive.org/">Kyaro Assistive Tech</a>, <a
@@ -28,27 +28,11 @@
 
 
 	<section class="section-small-projects">
-		<h2>Web</h2>
-		{% set projectslist = collections["web"] %}
+		{% set projectslist = collections["b_reel"] %}
 		{% include "projectslist.njk" %}
 	</section>
 
-	<section class="section-small-projects">
-		<h2>Layout and Illustration</h2>
-		{% set projectslist = collections["concepts"] %}
-		{% include "projectslist.njk" %}
-	</section>
-
-	<section class="section-small-projects">
-		<h2>Mobile</h2>
-		{% set projectslist = collections["mobile"] %}
-		{% include "projectslist.njk" %}
-
-		<!-- <h3>Physical</h3>
-		{% set projectslist = collections["physical"] %}
-		{% include "projectslist.njk" %} -->
-	</section>
-<!-- 
+<!--
 	<section>
 		<h2>Work With Me</h2>
 		<div class="col-md-6">

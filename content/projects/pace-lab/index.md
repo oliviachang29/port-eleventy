@@ -9,7 +9,7 @@ large_image_url: "./projects/pace-lab/pace-lab-1.png"
 small_image_url: "./projects/pace-lab/pace-lab.png"
 local_image_url: "./pace-lab-1.png"
 color: "#93CDE7"
-tags: concepts
+tags: b_reel
 ---
 
 ## Alternate Variations
